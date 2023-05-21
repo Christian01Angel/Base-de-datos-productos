@@ -1,0 +1,29 @@
+05/21/2023 12:21:42 PM DEBUG [logger.py:12] Mensaje a nivel Debug
+05/21/2023 12:21:42 PM INFO [logger.py:13] Mensaje a nivel Info
+05/21/2023 12:21:42 PM WARNING [logger.py:14] Mensaje a nivel Warning
+05/21/2023 12:21:42 PM ERROR [logger.py:15] Mensaje a nivel Error
+05/21/2023 12:21:42 PM CRITICAL [logger.py:16] Mensaje a nivel Critico
+05/21/2023 12:25:11 PM ERROR [PoolConexiones.py:27] Ocurrío un error al crear el pool: type object 'Conexion' has no attribute '_Pool'
+05/21/2023 12:25:33 PM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x00000202A04E26B0>
+05/21/2023 12:25:33 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000002029FCC28A0; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/21/2023 12:25:33 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000002029FCC2680; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/21/2023 12:25:33 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000002029FCC28A0; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/21/2023 12:25:33 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000002029FCC28A0; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/21/2023 12:25:33 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000002029FCC3560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/21/2023 12:25:33 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000002029FCC3CD0; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/21/2023 12:25:33 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000002029FCC3DE0; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/21/2023 01:12:30 PM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/21/2023 01:12:30 PM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000028023467DC0>
+05/21/2023 01:12:30 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x00000280230928A0; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/21/2023 01:12:30 PM DEBUG [CursorPool.py:30] Dentro del bloque with
+05/21/2023 01:12:30 PM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/21/2023 01:12:30 PM DEBUG [CursorPool.py:23] Se hizo commit de la transacción
+05/21/2023 01:12:30 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x00000280230928A0; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/21/2023 03:16:13 PM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/21/2023 03:16:13 PM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001E726667DC0>
+05/21/2023 03:16:13 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001E7262828A0; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/21/2023 03:16:13 PM DEBUG [CursorPool.py:30] Dentro del bloque with
+05/21/2023 03:16:13 PM DEBUG [CursorPool.py:32] [(1, 'Marshmallow', 1150, 'Fortnite'), (2, 'Wilson', 1150, 'Naufrago'), (3, 'Robocop', 1150, 'Robocop')]
+05/21/2023 03:16:13 PM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/21/2023 03:16:13 PM DEBUG [CursorPool.py:23] Se hizo commit de la transacción
+05/21/2023 03:16:13 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000001E7262828A0; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
