@@ -27,3 +27,63 @@
 05/21/2023 03:16:13 PM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
 05/21/2023 03:16:13 PM DEBUG [CursorPool.py:23] Se hizo commit de la transacción
 05/21/2023 03:16:13 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000001E7262828A0; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/21/2023 11:58:52 PM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/21/2023 11:58:52 PM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000023634E96E00>
+05/21/2023 11:58:52 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x0000023634623780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/21/2023 11:58:52 PM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/21/2023 11:58:52 PM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: tuple index out of range--<class 'IndexError'>--<traceback object at 0x0000023634F08AC0>
+05/21/2023 11:58:52 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x0000023634623780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 12:23:09 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 12:23:09 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001EDC3D65C30>
+05/22/2023 12:23:09 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001EDC3453560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 12:23:09 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 12:23:09 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: unsupported format character ')' (0x29) at index 114--<class 'ValueError'>--<traceback object at 0x000001EDC3D85140>
+05/22/2023 12:23:09 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000001EDC3453560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 12:23:19 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 12:23:19 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000028EED2931C0>
+05/22/2023 12:23:19 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x0000028EECA23780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 12:23:19 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 12:23:19 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: unsupported format character ')' (0x29) at index 114--<class 'ValueError'>--<traceback object at 0x0000028EED308E00>
+05/22/2023 12:23:19 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x0000028EECA23780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 12:51:26 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 12:51:26 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000002DDD1CD9BA0>
+05/22/2023 12:51:26 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000002DDD1423560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 12:51:26 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 12:51:26 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: unsupported format character ')' (0x29) at index 114--<class 'ValueError'>--<traceback object at 0x000002DDD1D1DA80>
+05/22/2023 12:51:26 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000002DDD1423560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:08:04 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:08:05 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x00000285AE6930D0>
+05/22/2023 01:08:05 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x00000285ADE23780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:08:05 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:08:05 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: tuple index out of range--<class 'IndexError'>--<traceback object at 0x00000285AE708F00>
+05/22/2023 01:08:05 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x00000285ADE23780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:08:41 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:08:41 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000019266193070>
+05/22/2023 01:08:41 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x0000019265633780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:08:41 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:08:41 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: tuple index out of range--<class 'IndexError'>--<traceback object at 0x0000019266208EC0>
+05/22/2023 01:08:41 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x0000019265633780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:09:48 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:09:48 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001A0921930D0>
+05/22/2023 01:09:48 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001A091713780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:09:48 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:09:48 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: tuple index out of range--<class 'IndexError'>--<traceback object at 0x000001A092208F00>
+05/22/2023 01:09:48 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000001A091713780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:15:17 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:15:17 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001948D693130>
+05/22/2023 01:15:17 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001948CE23780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:15:17 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:15:17 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: tuple index out of range--<class 'IndexError'>--<traceback object at 0x000001948D709080>
+05/22/2023 01:15:17 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000001948CE23780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:16:20 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:16:20 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000020CBB893130>
+05/22/2023 01:16:20 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x0000020CBB023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:16:20 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:16:20 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: tuple index out of range--<class 'IndexError'>--<traceback object at 0x0000020CBB909040>
+05/22/2023 01:16:20 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x0000020CBB023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:21:53 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:21:53 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000002478DC931F0>
+05/22/2023 01:21:53 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000002478D423780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:21:53 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:21:53 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: unsupported format character ')' (0x29) at index 114--<class 'ValueError'>--<traceback object at 0x000002478DD09040>
+05/22/2023 01:21:53 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000002478D423780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
