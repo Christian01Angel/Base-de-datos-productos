@@ -4,8 +4,8 @@ from CursorPool import CursorPool
 
 class MatesDao:
     _SELECCIONAR = 'SELECT * FROM mates ORDER BY id'
-    _INSERTAR = 'INSERT INTO mates(codigo, nombre, categoria, precioCompra, precioMayor, precioMenor) VALUES (%s, %s, %s, %s, %s, %)'
-    _ACTUALIZAR = 'UPDATE mates SET codigo=%s, nombre=%s, categoria=%s, precioCompra=%s, precioMayor=%s, precioMenor=%s WHERE id=%s'
+    _INSERTAR = 'INSERT INTO mates(codigo, nombre, categoria, precio_compra, precio_mayor, precio_menor) VALUES (%s, %s, %s, %s, %s, %s)'
+    _ACTUALIZAR = 'UPDATE mates SET codigo=%s, nombre=%s, categoria=%s, precio_compra=%s, precio_mayor=%s, precio_menor=%s WHERE id=%s'
     _ELIMINAR = 'DELETE FROM mates WHERE id=%s'
     @classmethod
     def seleccionar(cls):
@@ -14,7 +14,7 @@ class MatesDao:
             registros = cursor.fetchall()
             mates = []
             for registro in registros:
-                mate = Mates(registro[0], registro[1], registro[2], registro[3])
+                mate = Mates(registro[0], registro[1], registro[2], registro[3], registro[4])
                 mates.append(mate)
                 return mates
 
@@ -39,14 +39,24 @@ class MatesDao:
         with CursorPool() as cursor:
             cursor.execute(cls._ELIMINAR, mate.id)
             log.debug(f'Mate eliminado: {mate}')
-            return cursor.rowcount
+
+    @classmethod
+    def buscar(cls, orden):
+        with CursorPool() as cursor:
+            busqueda = 'SELECT {orden} FROM mates'
+            registros = cursor.execute(busqueda)
+            mates = []
+            for registro in registros:
+                mate = Mates(registro[0], registro[1], registro[2], registro[3], registro[4])
+                mates.append(mate)
+
 
 
 if __name__ == '__main__':
-    mate1 = Mates('M001', 'Marshmallow', 'Fortnite Cabeza Epic Juegos', 1150)
-    mate2 = Mates('M002', 'Wilson', 'Pelicula Pelota Naufrago', 1150)
-    MatesDao.insertar(mate1)
-    MatesDao.insertar(mate2)
+    # mate1 = Mates(1, 'M001', 'Marshmallow', 'Fortnite', 1150)
+    # MatesDao.insertar(mate1)
+    # mate2 = Mates(2, 'M002', 'Wilson', 'Pelicula Pelota Naufrago', 1150)
+    # MatesDao.insertar(mate2)
 
     mates = MatesDao.seleccionar()
     for mate in mates:

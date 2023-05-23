@@ -87,3 +87,143 @@
 05/22/2023 01:21:53 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
 05/22/2023 01:21:53 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: unsupported format character ')' (0x29) at index 114--<class 'ValueError'>--<traceback object at 0x000002478DD09040>
 05/22/2023 01:21:53 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000002478D423780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:29:55 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:29:55 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000017AB80D5BD0>
+05/22/2023 01:29:55 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x0000017AB7823560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:29:55 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:29:55 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: unsupported format character ')' (0x29) at index 114--<class 'ValueError'>--<traceback object at 0x0000017AB80F5100>
+05/22/2023 01:29:55 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x0000017AB7823560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:31:01 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:31:01 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001BBCE6931F0>
+05/22/2023 01:31:01 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001BBCDE23780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:31:01 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:31:01 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: unsupported format character ')' (0x29) at index 114--<class 'ValueError'>--<traceback object at 0x000001BBCE708E40>
+05/22/2023 01:31:01 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000001BBCDE23780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:33:21 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:33:21 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x00000185E21631C0>
+05/22/2023 01:33:21 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x00000185E1913780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:33:22 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:33:22 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: no existe la columna «preciocompra» en la relación «mates»
+LINE 1: INSERT INTO mates(codigo, nombre, categoria, precioCompra, p...
+                                                     ^
+--<class 'psycopg2.errors.UndefinedColumn'>--<traceback object at 0x00000185E2408EC0>
+05/22/2023 01:33:22 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x00000185E1913780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:38:34 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:38:35 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x00000263707331C0>
+05/22/2023 01:38:35 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000002636FEE3780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:38:35 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:38:35 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: no existe la columna «preciocompra» en la relación «mates»
+LINE 1: INSERT INTO mates(codigo, nombre, categoria, precioCompra, p...
+                                                     ^
+--<class 'psycopg2.errors.UndefinedColumn'>--<traceback object at 0x0000026370A08D40>
+05/22/2023 01:38:35 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000002636FEE3780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:39:14 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:39:14 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001E8B58931C0>
+05/22/2023 01:39:14 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001E8B5023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:39:14 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:39:14 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: no existe la columna «preciocompra» en la relación «mates»
+LINE 1: INSERT INTO mates(codigo, nombre, categoria, precioCompra, p...
+                                                     ^
+--<class 'psycopg2.errors.UndefinedColumn'>--<traceback object at 0x000001E8B5908EC0>
+05/22/2023 01:39:14 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000001E8B5023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:39:36 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:39:36 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x00000158FE1231C0>
+05/22/2023 01:39:36 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x00000158FD893780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:39:36 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:39:36 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: no existe la columna «precioadqui» en la relación «mates»
+LINE 1: INSERT INTO mates(codigo, nombre, categoria, precioAdqui, pr...
+                                                     ^
+--<class 'psycopg2.errors.UndefinedColumn'>--<traceback object at 0x00000158FE408EC0>
+05/22/2023 01:39:36 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x00000158FD893780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:40:31 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:40:31 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x00000281238931C0>
+05/22/2023 01:40:31 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x0000028123023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:40:31 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:40:31 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: no existe la columna «preciocompra» en la relación «mates»
+LINE 1: INSERT INTO mates(codigo, nombre, categoria, precioCompra, p...
+                                                     ^
+--<class 'psycopg2.errors.UndefinedColumn'>--<traceback object at 0x0000028123908EC0>
+05/22/2023 01:40:31 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x0000028123023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:40:46 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:40:46 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x00000258852931C0>
+05/22/2023 01:40:46 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x0000025884A23780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:40:46 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:40:46 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: no existe la columna «preciocompra» en la relación «mates»
+LINE 1: INSERT INTO mates(codigo, nombre, categoria, precioCompra, p...
+                                                     ^
+--<class 'psycopg2.errors.UndefinedColumn'>--<traceback object at 0x0000025885308EC0>
+05/22/2023 01:40:46 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x0000025884A23780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:41:00 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:41:00 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001F8173931C0>
+05/22/2023 01:41:00 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001F816833780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:41:00 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:41:00 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: no existe la columna «preciocompra» en la relación «mates»
+LINE 1: INSERT INTO mates(codigo, nombre, categoria, precioCompra, p...
+                                                     ^
+--<class 'psycopg2.errors.UndefinedColumn'>--<traceback object at 0x000001F817408EC0>
+05/22/2023 01:41:00 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000001F816833780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:50:10 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:50:10 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001D449D931C0>
+05/22/2023 01:50:10 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001D449283780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:50:10 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:50:10 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: no existe la columna «preciocompra» en la relación «mates»
+LINE 1: INSERT INTO mates(codigo, nombre, categoria, precioCompra, p...
+                                                     ^
+--<class 'psycopg2.errors.UndefinedColumn'>--<traceback object at 0x000001D449E08E00>
+05/22/2023 01:50:10 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000001D449283780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:53:49 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 01:53:49 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001CAB8743C10>
+05/22/2023 01:53:49 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001CAB7EF3780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 01:53:49 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 01:53:49 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: no existe la columna «preciocompra» en la relación «mates»
+LINE 1: INSERT INTO mates(codigo, nombre, categoria, precioCompra, p...
+                                                     ^
+--<class 'psycopg2.errors.UndefinedColumn'>--<traceback object at 0x000001CAB8A08CC0>
+05/22/2023 01:53:49 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000001CAB7EF3780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 10:45:45 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 10:45:45 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000002FED8493C10>
+05/22/2023 10:45:45 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000002FED7C23780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 10:45:45 AM DEBUG [MatesDao.py:26] Mate insertado: ID=2  --  CODIGO: M002 -- NOMBRE: Wilson  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/22/2023 10:45:45 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 10:45:45 AM DEBUG [CursorPool.py:23] Se hizo commit de la transacción
+05/22/2023 10:45:45 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000002FED7C23780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 10:45:45 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 10:45:45 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000002FED7C23780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 10:45:45 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 10:45:45 AM ERROR [CursorPool.py:20] Se hace rollback debido a que ocurrío un error: Mates.__init__() missing 1 required positional argument: 'precio'--<class 'TypeError'>--<traceback object at 0x000002FED85092C0>
+05/22/2023 10:45:45 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x000002FED7C23780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 10:50:42 AM DEBUG [CursorPool.py:11] Inicio del método with __enter__
+05/22/2023 10:50:42 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000023582839900>
+05/22/2023 10:50:42 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x0000023582093780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 10:50:42 AM DEBUG [CursorPool.py:17] Se ejecuta el metodo __exit__
+05/22/2023 10:50:42 AM DEBUG [CursorPool.py:23] Se hizo commit de la transacción
+05/22/2023 10:50:42 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al poo: <connection object at 0x0000023582093780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 10:50:42 AM DEBUG [MatesDao.py:53] ID=M001  --  CODIGO: Marshmallow -- NOMBRE: Fortnite Juego Epic Cabeza  --  PRECIO COMPRA: 1610 --  PRECIO MENOR:2817.5  --  PRECIO MAYOR: 2254.0
+05/22/2023 10:53:22 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000027C5583BD30>
+05/22/2023 10:53:22 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x0000027C55053560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 10:53:22 AM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/22/2023 10:53:22 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x0000027C55053560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 10:53:22 AM DEBUG [MatesDao.py:53] ID=M001  --  CODIGO: Marshmallow -- NOMBRE: Fortnite Juego Epic Cabeza  --  PRECIO COMPRA: 1610 --  PRECIO MENOR:2817.5  --  PRECIO MAYOR: 2254.0
+05/22/2023 11:06:38 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001987C139AB0>
+05/22/2023 11:06:38 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001987BC23780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 11:06:38 AM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/22/2023 11:06:38 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001987BC23780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 11:06:38 AM DEBUG [MatesDao.py:53] ID=1  --  CODIGO: M001 -- NOMBRE: Marshmallow  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/22/2023 02:44:38 PM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001CB6CD67E50>
+05/22/2023 02:44:38 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001CB6CC23670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 02:44:38 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/22/2023 02:44:38 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001CB6CC23670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/22/2023 02:44:38 PM DEBUG [ProgramaFinal.py:50] ID=1  --  CODIGO: M001 -- NOMBRE: Marshmallow  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/23/2023 11:27:31 AM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001F21C871720>
+05/23/2023 11:27:32 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001F21C0E3670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/23/2023 11:27:32 AM DEBUG [MatesDao.py:26] Mate insertado: ID=3  --  CODIGO: M003 -- NOMBRE: Robocop  --  PRECIO COMPRA: 1200 --  PRECIO MENOR:2100.0  --  PRECIO MAYOR: 1680.0
+05/23/2023 11:27:32 AM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/23/2023 11:27:32 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001F21C0E3670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/23/2023 11:28:04 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001F21C0E3670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/23/2023 11:28:04 AM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/23/2023 11:28:04 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001F21C0E3670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/23/2023 11:28:04 AM DEBUG [ProgramaFinal.py:62] ID=1  --  CODIGO: M001 -- NOMBRE: Marshmallow  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/23/2023 11:29:13 AM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001F21C0E3670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/23/2023 11:29:13 AM DEBUG [MatesDao.py:34] Mate actualizado: ID=3  --  CODIGO: M003 -- NOMBRE: Robocop  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/23/2023 11:29:13 AM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/23/2023 11:29:13 AM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001F21C0E3670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
