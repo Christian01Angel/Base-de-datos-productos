@@ -1,8 +1,11 @@
+import time
+
 from logger import log
 from MatesDao import MatesDao
 from Mates import Mates
 
 def tomarDesicion(accion, producto):
+    time.sleep(1)
     respuesta = input(f'Desea continuar {accion} {producto}? (S/N):')
     if respuesta in 'Ss':
         return True
@@ -13,12 +16,12 @@ def tomarDesicion(accion, producto):
         tomarDesicion(accion, producto)
 
 
-
 print('Bienvenido al sistema de administración de productos')
 
 condicion = True
 
 while condicion:
+    time.sleep(1)
     print('''
     Seleccione una opcion del menu:
     1-Insertar un producto
@@ -26,11 +29,11 @@ while condicion:
     3-Ver los productos en el registro
     4-Buscar un producto
     5-Eliminar un producto
-    6-Boleta para pedido
-    7-Salir
+    6-Salir
     ''')
 
     opcion_menu = int(input('Opción seleccionada(1-7): '))
+    time.sleep(1)
 
     if opcion_menu == 1:
         decision = True
@@ -42,7 +45,7 @@ while condicion:
             precio = int(input('Ingrece el precio de compra: '))
             mate = Mates(id, codigo, nombre, categoria, precio)
             MatesDao.insertar(mate)
-            decision = tomarDesicion('insertar', 'mate')
+            decision = tomarDesicion('insertando', 'mates')
 
     elif opcion_menu == 2:
         decision = True
@@ -54,7 +57,7 @@ while condicion:
             precio = int(input('Ingrece el precio de compra a actualizar: '))
             mate = Mates(id, codigo, nombre, categoria, precio)
             MatesDao.actualizar(mate)
-            desicion = tomarDesicion('actualizar', 'mate')
+            desicion = tomarDesicion('actualizando', 'mates')
 
     elif opcion_menu == 3:
         mates = MatesDao.seleccionar()
@@ -62,39 +65,61 @@ while condicion:
             log.debug(mate)
 
     elif opcion_menu == 4:
-        print('''
-        Categorías de busqueda:
-        1- ID
-        2- Código
-        3- Nombre
-        4- Categoría
-        5- Precio
-        ''')
-        # busqueda = int(input('Elija una categoría de busqueda (1-5): '))
-        # if busqueda==1:
-        #     id = int(input('Indique el ID a buscar: '))
-        #     mates = MatesDao.buscar('id')
-        #     for mate in mates:
-        #         log.debug(mate)
-        # elif busqueda == 2:
-        #     codigo = int(input('Indique el Código a buscar: '))
-        #     mates = MatesDao.buscar('codigo')
-        #     for mate in mates:
-        #         log.debug(mate)
-        # elif busqueda == 3:
-        #     nombre = int(input('Indique el Nombre a buscar: '))
-        #     mates = MatesDao.buscar('nombre')
-        #     for mate in mates:
-        #         log.debug(mate)
-        # elif busqueda == 4:
-        #     categoria = int(input('Indique el Categoría a buscar: '))
-        #     mates = MatesDao.buscar('categoria')
-        #     for mate in mates:
-        #         log.debug(mate)
-        # elif busqueda == 5:
-        #     precio = int(input('Indique el Precio a buscar: '))
-        #     mates = MatesDao.buscar(precio)
-        #     for mate in mates:
-        #         log.debug(mate)
+        decision = True
+        while decision:
+            print('''
+            Categorías de busqueda:
+            1- Código
+            2- Nombre
+            3- Categoría
+            4- Precio Mayorista
+            5- Precio Minorista
+            ''')
+            busqueda = int(input('Elija una categoría de busqueda (1-5): '))
+            time.sleep(1)
+            if busqueda == 1:
+                mates = MatesDao.seleccionar()
+                codigo = input('Ingrese el código que desea buscar: ')
+                for mate in mates:
+                    if codigo == mate.codigo:
+                        log.debug(mate)
 
+            elif busqueda == 2:
+                mates = MatesDao.seleccionar()
+                nombre = input('Ingrese el nombre que desea buscar: ')
+                for mate in mates:
+                    if nombre == mate.nombre:
+                        log.debug(mate)
 
+            elif busqueda == 3:
+                mates = MatesDao.seleccionar()
+                categoria = input('Ingrese la categoría que desea buscar: ')
+                for mate in mates:
+                    if categoria in mate.categoria:
+                        log.debug(mate)
+
+            elif busqueda == 4:
+                mates = MatesDao.seleccionar()
+                precio_mayor = int(input('Ingrese el precio por mayor que desea buscar: '))
+                for mate in mates:
+                    if precio_mayor == mate.precio_mayor:
+                        log.debug(mate)
+
+            elif busqueda == 5:
+                mates = MatesDao.seleccionar()
+                precio_menor = int(input('Ingrese el precio por menor que desea buscar: '))
+                for mate in mates:
+                    if precio_menor == mate.precio_menor:
+                        log.debug(mate)
+            decision = tomarDesicion('buscando', 'mates')
+
+    elif opcion_menu == 5:
+        id = int(input('Ingrese el id del mate a eliminar'))
+        MatesDao.insertar(id)
+
+    elif opcion_menu == 6:
+        print('Gracias por utilizar el sistema')
+        time.sleep(0.5)
+        print('Adios')
+        time.sleep(0.5)
+        condicion = False

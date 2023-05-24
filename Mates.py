@@ -40,7 +40,7 @@ class Mates:
         return self._precio_menor
 
     def __str__(self):
-        return f'''ID={self._id}  --  CODIGO: {self._codigo} -- NOMBRE: {self._nombre}  --  PRECIO COMPRA: {self._precio} --  PRECIO MENOR:{self._precio_menor}  --  PRECIO MAYOR: {self._precio_mayor}'''
+        return f'''ID={self._id}  --  CODIGO: {self._codigo} -- NOMBRE: {self._nombre}  --  CATEGORÍA: {self._categoria}  --  PRECIO COMPRA: {self._precio} --  PRECIO MENOR:{self._precio_menor}  --  PRECIO MAYOR: {self._precio_mayor}'''
 
 
 if __name__ == '__main__':

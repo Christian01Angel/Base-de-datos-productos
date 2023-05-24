@@ -12,11 +12,12 @@ class MatesDao:
         with CursorPool() as cursor:
             cursor.execute(cls._SELECCIONAR)
             registros = cursor.fetchall()
+            print(registros)
             mates = []
             for registro in registros:
                 mate = Mates(registro[0], registro[1], registro[2], registro[3], registro[4])
                 mates.append(mate)
-                return mates
+            return mates
 
     @classmethod
     def insertar(cls, mate):
@@ -35,20 +36,10 @@ class MatesDao:
             return cursor.rowcount
 
     @classmethod
-    def eliminar(cls, mate):
+    def eliminar(cls, id):
         with CursorPool() as cursor:
-            cursor.execute(cls._ELIMINAR, mate.id)
+            cursor.execute(cls._ELIMINAR, id)
             log.debug(f'Mate eliminado: {mate}')
-
-    @classmethod
-    def buscar(cls, orden):
-        with CursorPool() as cursor:
-            busqueda = 'SELECT {orden} FROM mates'
-            registros = cursor.execute(busqueda)
-            mates = []
-            for registro in registros:
-                mate = Mates(registro[0], registro[1], registro[2], registro[3], registro[4])
-                mates.append(mate)
 
 
 
