@@ -279,3 +279,106 @@ LINE 1: INSERT INTO mates(codigo, nombre, categoria, precioCompra, p...
 05/24/2023 02:01:06 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
 05/24/2023 02:01:06 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001D63EC53780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
 05/24/2023 02:01:14 PM DEBUG [ProgramaFinal.py:92] ID=5  --  CODIGO: M005 -- NOMBRE: Pantera Negra  --  CATEGORÍA: PanteraNegra Cabeza Marvel Pelicula Heroe  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:47:31 PM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001D61A1A3E80>
+05/25/2023 02:47:31 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001D61A023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 02:47:31 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 02:47:31 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001D61A023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 02:47:31 PM DEBUG [ProgramaFinal.py:65] ID=1  --  CODIGO: M001 -- NOMBRE: Marshmallow  --  CATEGORÍA: Fortnite Juego Epic Cabeza  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:47:31 PM DEBUG [ProgramaFinal.py:65] ID=2  --  CODIGO: M002 -- NOMBRE: Wilson  --  CATEGORÍA: Pelicula Pelota Naufrago  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:47:31 PM DEBUG [ProgramaFinal.py:65] ID=3  --  CODIGO: M003 -- NOMBRE: Robocop  --  CATEGORÍA: Cabeza Pelicula Robocop Policia  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:47:31 PM DEBUG [ProgramaFinal.py:65] ID=4  --  CODIGO: M004 -- NOMBRE: Tokyo Ghoul  --  CATEGORÍA: Anime Dibujo TokyoGhoul Cabeza  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:47:31 PM DEBUG [ProgramaFinal.py:65] ID=5  --  CODIGO: M005 -- NOMBRE: Pantera Negra  --  CATEGORÍA: PanteraNegra Cabeza Marvel Pelicula Heroe  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:48:41 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001D61A023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 02:48:41 PM DEBUG [MatesDao.py:27] Mate insertado: ID=6  --  CODIGO: M006 -- NOMBRE: Batman  --  CATEGORÍA: Batman Heroe Cabeza Pelicula  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:48:41 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 02:48:41 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001D61A023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 02:49:41 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001D61A023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 02:49:41 PM DEBUG [MatesDao.py:27] Mate insertado: ID=7  --  CODIGO: M007 -- NOMBRE: Naruto  --  CATEGORÍA: Naruto Heroe Anime Dibujo Cabeza  --  PRECIO COMPRA: 1750 --  PRECIO MENOR:3062.5  --  PRECIO MAYOR: 2450.0
+05/25/2023 02:49:41 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 02:49:41 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001D61A023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 02:50:14 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001D61A023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 02:50:14 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 02:50:14 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001D61A023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 02:50:14 PM DEBUG [ProgramaFinal.py:65] ID=1  --  CODIGO: M001 -- NOMBRE: Marshmallow  --  CATEGORÍA: Fortnite Juego Epic Cabeza  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:50:14 PM DEBUG [ProgramaFinal.py:65] ID=2  --  CODIGO: M002 -- NOMBRE: Wilson  --  CATEGORÍA: Pelicula Pelota Naufrago  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:50:14 PM DEBUG [ProgramaFinal.py:65] ID=3  --  CODIGO: M003 -- NOMBRE: Robocop  --  CATEGORÍA: Cabeza Pelicula Robocop Policia  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:50:14 PM DEBUG [ProgramaFinal.py:65] ID=4  --  CODIGO: M004 -- NOMBRE: Tokyo Ghoul  --  CATEGORÍA: Anime Dibujo TokyoGhoul Cabeza  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:50:14 PM DEBUG [ProgramaFinal.py:65] ID=5  --  CODIGO: M005 -- NOMBRE: Pantera Negra  --  CATEGORÍA: PanteraNegra Cabeza Marvel Pelicula Heroe  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:50:14 PM DEBUG [ProgramaFinal.py:65] ID=6  --  CODIGO: M006 -- NOMBRE: Batman  --  CATEGORÍA: Batman Heroe Cabeza Pelicula  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:50:14 PM DEBUG [ProgramaFinal.py:65] ID=7  --  CODIGO: M007 -- NOMBRE: Naruto  --  CATEGORÍA: Naruto Heroe Anime Dibujo Cabeza  --  PRECIO COMPRA: 1750 --  PRECIO MENOR:3062.5  --  PRECIO MAYOR: 2450.0
+05/25/2023 02:50:29 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001D61A023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 02:50:29 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 02:50:29 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001D61A023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 02:50:35 PM DEBUG [ProgramaFinal.py:99] ID=1  --  CODIGO: M001 -- NOMBRE: Marshmallow  --  CATEGORÍA: Fortnite Juego Epic Cabeza  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:50:35 PM DEBUG [ProgramaFinal.py:99] ID=3  --  CODIGO: M003 -- NOMBRE: Robocop  --  CATEGORÍA: Cabeza Pelicula Robocop Policia  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:50:35 PM DEBUG [ProgramaFinal.py:99] ID=4  --  CODIGO: M004 -- NOMBRE: Tokyo Ghoul  --  CATEGORÍA: Anime Dibujo TokyoGhoul Cabeza  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:50:35 PM DEBUG [ProgramaFinal.py:99] ID=5  --  CODIGO: M005 -- NOMBRE: Pantera Negra  --  CATEGORÍA: PanteraNegra Cabeza Marvel Pelicula Heroe  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:50:35 PM DEBUG [ProgramaFinal.py:99] ID=6  --  CODIGO: M006 -- NOMBRE: Batman  --  CATEGORÍA: Batman Heroe Cabeza Pelicula  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:50:35 PM DEBUG [ProgramaFinal.py:99] ID=7  --  CODIGO: M007 -- NOMBRE: Naruto  --  CATEGORÍA: Naruto Heroe Anime Dibujo Cabeza  --  PRECIO COMPRA: 1750 --  PRECIO MENOR:3062.5  --  PRECIO MAYOR: 2450.0
+05/25/2023 02:50:57 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001D61A023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 02:50:57 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 02:50:57 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001D61A023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 02:51:06 PM DEBUG [ProgramaFinal.py:99] ID=2  --  CODIGO: M002 -- NOMBRE: Wilson  --  CATEGORÍA: Pelicula Pelota Naufrago  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:51:06 PM DEBUG [ProgramaFinal.py:99] ID=3  --  CODIGO: M003 -- NOMBRE: Robocop  --  CATEGORÍA: Cabeza Pelicula Robocop Policia  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:51:06 PM DEBUG [ProgramaFinal.py:99] ID=5  --  CODIGO: M005 -- NOMBRE: Pantera Negra  --  CATEGORÍA: PanteraNegra Cabeza Marvel Pelicula Heroe  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:51:06 PM DEBUG [ProgramaFinal.py:99] ID=6  --  CODIGO: M006 -- NOMBRE: Batman  --  CATEGORÍA: Batman Heroe Cabeza Pelicula  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 02:51:44 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001D61A023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 02:51:44 PM ERROR [CursorPool.py:18] Se hace rollback debido a que ocurrío un error: 'int' object has no attribute 'codigo'--<class 'AttributeError'>--<traceback object at 0x000001D61A903EC0>
+05/25/2023 02:51:44 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001D61A023780; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:12:53 PM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001EE510A3E80>
+05/25/2023 03:12:53 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001EE50CC3560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:12:53 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 03:12:53 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001EE50CC3560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:13:21 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001EE50CC3560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:13:21 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 03:13:21 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001EE50CC3560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:15:44 PM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001D9EDAA3E80>
+05/25/2023 03:15:44 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001D9ED693560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:15:44 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 03:15:44 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001D9ED693560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:17:56 PM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001F0142A3E80>
+05/25/2023 03:17:56 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001F013EA3560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:17:56 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 03:17:56 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001F013EA3560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:17:56 PM DEBUG [ProgramaFinal.py:65] ID=1  --  CODIGO: M001 -- NOMBRE: Marshmallow  --  CATEGORÍA: Fortnite Juego Epic Cabeza  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:17:56 PM DEBUG [ProgramaFinal.py:65] ID=2  --  CODIGO: M002 -- NOMBRE: Wilson  --  CATEGORÍA: Pelicula Pelota Naufrago  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:17:56 PM DEBUG [ProgramaFinal.py:65] ID=3  --  CODIGO: M003 -- NOMBRE: Robocop  --  CATEGORÍA: Cabeza Pelicula Robocop Policia  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:17:56 PM DEBUG [ProgramaFinal.py:65] ID=4  --  CODIGO: M004 -- NOMBRE: Tokyo Ghoul  --  CATEGORÍA: Anime Dibujo TokyoGhoul Cabeza  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:17:56 PM DEBUG [ProgramaFinal.py:65] ID=5  --  CODIGO: M005 -- NOMBRE: Pantera Negra  --  CATEGORÍA: PanteraNegra Cabeza Marvel Pelicula Heroe  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:17:56 PM DEBUG [ProgramaFinal.py:65] ID=6  --  CODIGO: M006 -- NOMBRE: Batman  --  CATEGORÍA: Batman Heroe Cabeza Pelicula  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:17:56 PM DEBUG [ProgramaFinal.py:65] ID=7  --  CODIGO: M007 -- NOMBRE: Naruto  --  CATEGORÍA: Naruto Heroe Anime Dibujo Cabeza  --  PRECIO COMPRA: 1750 --  PRECIO MENOR:3062.5  --  PRECIO MAYOR: 2450.0
+05/25/2023 03:18:51 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001F013EA3560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:18:51 PM DEBUG [MatesDao.py:27] Mate insertado: ID=8  --  CODIGO: M008 -- NOMBRE: Rick Pepino  --  CATEGORÍA: Cabeza RickYMorty  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:18:51 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 03:18:51 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001F013EA3560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:19:03 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001F013EA3560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:19:03 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 03:19:03 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001F013EA3560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:19:03 PM DEBUG [ProgramaFinal.py:65] ID=1  --  CODIGO: M001 -- NOMBRE: Marshmallow  --  CATEGORÍA: Fortnite Juego Epic Cabeza  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:19:03 PM DEBUG [ProgramaFinal.py:65] ID=2  --  CODIGO: M002 -- NOMBRE: Wilson  --  CATEGORÍA: Pelicula Pelota Naufrago  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:19:03 PM DEBUG [ProgramaFinal.py:65] ID=3  --  CODIGO: M003 -- NOMBRE: Robocop  --  CATEGORÍA: Cabeza Pelicula Robocop Policia  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:19:03 PM DEBUG [ProgramaFinal.py:65] ID=4  --  CODIGO: M004 -- NOMBRE: Tokyo Ghoul  --  CATEGORÍA: Anime Dibujo TokyoGhoul Cabeza  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:19:03 PM DEBUG [ProgramaFinal.py:65] ID=5  --  CODIGO: M005 -- NOMBRE: Pantera Negra  --  CATEGORÍA: PanteraNegra Cabeza Marvel Pelicula Heroe  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:19:03 PM DEBUG [ProgramaFinal.py:65] ID=6  --  CODIGO: M006 -- NOMBRE: Batman  --  CATEGORÍA: Batman Heroe Cabeza Pelicula  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:19:03 PM DEBUG [ProgramaFinal.py:65] ID=7  --  CODIGO: M007 -- NOMBRE: Naruto  --  CATEGORÍA: Naruto Heroe Anime Dibujo Cabeza  --  PRECIO COMPRA: 1750 --  PRECIO MENOR:3062.5  --  PRECIO MAYOR: 2450.0
+05/25/2023 03:19:03 PM DEBUG [ProgramaFinal.py:65] ID=8  --  CODIGO: M008 -- NOMBRE: Rick Pepino  --  CATEGORÍA: Cabeza RickYMorty  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:20:35 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001F013EA3560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:20:35 PM DEBUG [MatesDao.py:35] Mate actualizado: ID=6  --  CODIGO: M006 -- NOMBRE: Joker (La pelicula)  --  CATEGORÍA: Pelicula Cabeza Joker Villano Batman  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:20:35 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 03:20:35 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001F013EA3560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:21:43 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001F013EA3560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:21:43 PM DEBUG [MatesDao.py:35] Mate actualizado: ID=7  --  CODIGO: M007 -- NOMBRE: Charizard  --  CATEGORÍA: Pokemon Dibujo Cabeza Niños  --  PRECIO COMPRA: 1300 --  PRECIO MENOR:2275.0  --  PRECIO MAYOR: 1819.9999999999998
+05/25/2023 03:21:43 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 03:21:43 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001F013EA3560; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:23:20 PM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000002D4E2AA3E80>
+05/25/2023 03:23:20 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000002D4E26F3670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:23:20 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 03:23:20 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000002D4E26F3670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:23:29 PM DEBUG [ProgramaFinal.py:93] ID=7  --  CODIGO: M007 -- NOMBRE: Charizard  --  CATEGORÍA: Pokemon Dibujo Cabeza Niños  --  PRECIO COMPRA: 1300 --  PRECIO MENOR:2275.0  --  PRECIO MAYOR: 1819.9999999999998
+05/25/2023 03:23:50 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000002D4E26F3670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:23:50 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 03:23:50 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000002D4E26F3670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:23:55 PM DEBUG [ProgramaFinal.py:100] ID=2  --  CODIGO: M002 -- NOMBRE: Wilson  --  CATEGORÍA: Pelicula Pelota Naufrago  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:23:55 PM DEBUG [ProgramaFinal.py:100] ID=3  --  CODIGO: M003 -- NOMBRE: Robocop  --  CATEGORÍA: Cabeza Pelicula Robocop Policia  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:23:55 PM DEBUG [ProgramaFinal.py:100] ID=5  --  CODIGO: M005 -- NOMBRE: Pantera Negra  --  CATEGORÍA: PanteraNegra Cabeza Marvel Pelicula Heroe  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:23:55 PM DEBUG [ProgramaFinal.py:100] ID=6  --  CODIGO: M006 -- NOMBRE: Joker (La pelicula)  --  CATEGORÍA: Pelicula Cabeza Joker Villano Batman  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0

@@ -12,7 +12,6 @@ class MatesDao:
         with CursorPool() as cursor:
             cursor.execute(cls._SELECCIONAR)
             registros = cursor.fetchall()
-            print(registros)
             mates = []
             for registro in registros:
                 mate = Mates(registro[0], registro[1], registro[2], registro[3], registro[4])

@@ -42,7 +42,7 @@ while condicion:
             codigo = input('Ingrese el código: ')
             nombre = input('Ingrese el nombre: ')
             categoria = input('Ingrese las categorías separadas por un espacio: ')
-            precio = int(input('Ingrece el precio de compra: '))
+            precio = int(input('Ingrese el precio de compra: '))
             mate = Mates(id, codigo, nombre, categoria, precio)
             MatesDao.insertar(mate)
             decision = tomarDesicion('insertando', 'mates')
@@ -54,10 +54,10 @@ while condicion:
             codigo = input('Ingrese el código a actualizar: ')
             nombre = input('Ingrese el nombre a actualizar: ')
             categoria = input('Ingrese las categorías a actualizar, separadas por un espacio: ')
-            precio = int(input('Ingrece el precio de compra a actualizar: '))
+            precio = int(input('Ingrese el precio de compra a actualizar: '))
             mate = Mates(id, codigo, nombre, categoria, precio)
             MatesDao.actualizar(mate)
-            desicion = tomarDesicion('actualizando', 'mates')
+            decision = tomarDesicion('actualizando', 'mates')
 
     elif opcion_menu == 3:
         mates = MatesDao.seleccionar()
@@ -74,6 +74,7 @@ while condicion:
             3- Categoría
             4- Precio Mayorista
             5- Precio Minorista
+            6- Volver atras
             ''')
             busqueda = int(input('Elija una categoría de busqueda (1-5): '))
             time.sleep(1)
@@ -111,11 +112,20 @@ while condicion:
                 for mate in mates:
                     if precio_menor == mate.precio_menor:
                         log.debug(mate)
-            decision = tomarDesicion('buscando', 'mates')
+
+            elif busqueda == 6:
+                decision = False
+
+            else:
+                print('Comando invalido, por favor intentelo otra vez.')
+                time.sleep(0.5)
+
+            if str(busqueda) in '12345':
+                decision = tomarDesicion('buscando', 'mates')
 
     elif opcion_menu == 5:
         id = int(input('Ingrese el id del mate a eliminar'))
-        MatesDao.insertar(id)
+        MatesDao.eliminar(id)
 
     elif opcion_menu == 6:
         print('Gracias por utilizar el sistema')
@@ -123,3 +133,7 @@ while condicion:
         print('Adios')
         time.sleep(0.5)
         condicion = False
+
+    else:
+        print('Comando invalido, por favor intentelo otra vez.')
+        time.sleep(0.5)
