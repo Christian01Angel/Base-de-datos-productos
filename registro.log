@@ -382,3 +382,31 @@ LINE 1: INSERT INTO mates(codigo, nombre, categoria, precioCompra, p...
 05/25/2023 03:23:55 PM DEBUG [ProgramaFinal.py:100] ID=3  --  CODIGO: M003 -- NOMBRE: Robocop  --  CATEGORÍA: Cabeza Pelicula Robocop Policia  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
 05/25/2023 03:23:55 PM DEBUG [ProgramaFinal.py:100] ID=5  --  CODIGO: M005 -- NOMBRE: Pantera Negra  --  CATEGORÍA: PanteraNegra Cabeza Marvel Pelicula Heroe  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
 05/25/2023 03:23:55 PM DEBUG [ProgramaFinal.py:100] ID=6  --  CODIGO: M006 -- NOMBRE: Joker (La pelicula)  --  CATEGORÍA: Pelicula Cabeza Joker Villano Batman  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:28:24 PM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001E7B52A3E80>
+05/25/2023 03:28:24 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001E7B4F13670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:28:24 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 03:28:24 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001E7B4F13670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:30:01 PM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x00000208303A3E80>
+05/25/2023 03:30:01 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x0000020830223670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:30:01 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 03:30:01 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x0000020830223670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:30:11 PM DEBUG [ProgramaFinal.py:87] ID=3  --  CODIGO: M003 -- NOMBRE: Robocop  --  CATEGORÍA: Cabeza Pelicula Robocop Policia  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:31:26 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x0000020830223670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:31:26 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 03:31:26 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x0000020830223670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:32:37 PM DEBUG [PoolConexiones.py:24] Creación del pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001BF7CAA3E80>
+05/25/2023 03:32:37 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001BF7C673670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:32:37 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 03:32:37 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001BF7C673670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:32:42 PM DEBUG [ProgramaFinal.py:100] ID=2  --  CODIGO: M002 -- NOMBRE: Wilson  --  CATEGORÍA: Pelicula Pelota Naufrago  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:32:42 PM DEBUG [ProgramaFinal.py:100] ID=3  --  CODIGO: M003 -- NOMBRE: Robocop  --  CATEGORÍA: Cabeza Pelicula Robocop Policia  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:32:42 PM DEBUG [ProgramaFinal.py:100] ID=5  --  CODIGO: M005 -- NOMBRE: Pantera Negra  --  CATEGORÍA: PanteraNegra Cabeza Marvel Pelicula Heroe  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:32:42 PM DEBUG [ProgramaFinal.py:100] ID=6  --  CODIGO: M006 -- NOMBRE: Joker (La pelicula)  --  CATEGORÍA: Pelicula Cabeza Joker Villano Batman  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0
+05/25/2023 03:32:49 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001BF7C673670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:32:49 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 03:32:49 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001BF7C673670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:32:54 PM DEBUG [ProgramaFinal.py:94] ID=7  --  CODIGO: M007 -- NOMBRE: Charizard  --  CATEGORÍA: Pokemon Dibujo Cabeza Niños  --  PRECIO COMPRA: 1300 --  PRECIO MENOR:2275.0  --  PRECIO MAYOR: 1819.9999999999998
+05/25/2023 03:32:59 PM DEBUG [PoolConexiones.py:35] Conexión obtenida al pool: <connection object at 0x000001BF7C673670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:32:59 PM DEBUG [CursorPool.py:21] Se hizo commit de la transacción
+05/25/2023 03:32:59 PM DEBUG [PoolConexiones.py:41] Regresamos la conexión al pool: <connection object at 0x000001BF7C673670; dsn: 'user=postgres password=xxx dbname=productos3d host=127.0.0.1 port=5432', closed: 0>
+05/25/2023 03:33:02 PM DEBUG [ProgramaFinal.py:88] ID=5  --  CODIGO: M005 -- NOMBRE: Pantera Negra  --  CATEGORÍA: PanteraNegra Cabeza Marvel Pelicula Heroe  --  PRECIO COMPRA: 1150 --  PRECIO MENOR:2012.5  --  PRECIO MAYOR: 1610.0

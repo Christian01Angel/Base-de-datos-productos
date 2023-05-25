@@ -76,38 +76,36 @@ while condicion:
             5- Precio Minorista
             6- Volver atras
             ''')
-            busqueda = int(input('Elija una categoría de busqueda (1-5): '))
+            busqueda = int(input('Elija una categoría de busqueda (1-6): '))
             time.sleep(1)
+            mates = MatesDao.seleccionar()
+            time.sleep(0.2)
+
             if busqueda == 1:
-                mates = MatesDao.seleccionar()
                 codigo = input('Ingrese el código que desea buscar: ')
                 for mate in mates:
                     if codigo == mate.codigo:
                         log.debug(mate)
 
             elif busqueda == 2:
-                mates = MatesDao.seleccionar()
                 nombre = input('Ingrese el nombre que desea buscar: ')
                 for mate in mates:
                     if nombre == mate.nombre:
                         log.debug(mate)
 
             elif busqueda == 3:
-                mates = MatesDao.seleccionar()
                 categoria = input('Ingrese la categoría que desea buscar: ')
                 for mate in mates:
                     if categoria in mate.categoria:
                         log.debug(mate)
 
             elif busqueda == 4:
-                mates = MatesDao.seleccionar()
                 precio_mayor = int(input('Ingrese el precio por mayor que desea buscar: '))
                 for mate in mates:
                     if precio_mayor == mate.precio_mayor:
                         log.debug(mate)
 
             elif busqueda == 5:
-                mates = MatesDao.seleccionar()
                 precio_menor = int(input('Ingrese el precio por menor que desea buscar: '))
                 for mate in mates:
                     if precio_menor == mate.precio_menor:
