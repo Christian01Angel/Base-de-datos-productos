@@ -28,7 +28,7 @@ while condicion:
     2-Actualizar un producto
     3-Ver los productos en el registro
     4-Buscar un producto
-    5-Eliminar un producto
+    5-Actualizar precios
     6-Salir
     ''')
 
@@ -122,8 +122,19 @@ while condicion:
                 decision = tomarDesicion('buscando', 'mates')
 
     elif opcion_menu == 5:
-        id = int(input('Ingrese el id del mate a eliminar'))
-        MatesDao.eliminar(id)
+        decision = True
+        while decision:
+            precio_viejo = int(input('Indique el precio a modificar: '))
+            time.sleep(0.2)
+            precio_nuevo = int(input('Ingrese el nuevo precio: '))
+            mates = MatesDao.seleccionar()
+            for mate in mates:
+                if precio_viejo == mate.precio:
+                    mate = Mates(mate.id, mate.codigo, mate.nombre, mate.categoria, precio_nuevo)
+                    MatesDao.actualizar(mate)
+            decision = tomarDesicion('actualizando', 'precios')
+
+
 
     elif opcion_menu == 6:
         print('Gracias por utilizar el sistema')
